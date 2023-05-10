@@ -1,2 +1,6 @@
 .idea
 sept-2022.iml
+dist
+node_modules
+.env
+.env.*
