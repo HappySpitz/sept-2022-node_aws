@@ -4,7 +4,7 @@
   "description": "My educational project on node js express.",
   "main": "index.js",
   "scripts": {
-    "start": "rm -rf dist && tsc-watch --onSuccess 'npm run watch'",
+    "start": "rimraf dist && tsc-watch --onSuccess 'npm run watch'",
     "watch": "nodemon 'src/app.ts' --watch './src'",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
   },
